@@ -3,10 +3,46 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{graphicx}
 
 \author{Oleg Loshkin}
 \title{\textbf{CSC}\\Convertible Scene Creator\\\textbf{User Manual}}
+\graphicspath{{./images/}}
 
 \begin{document}
+
 \maketitle
+
+\section{Introduction}
+The \textbf{Convertible Scene Creator, or CSC for short,} is a Unity tool used to \textbf{create .asset ScriptableObject files from .unity Scenes}.
+These .asset files can then be \textbf{used by the Unity to PokEngine Data Converter (UPDC)} to generate .pokconvertiblescene files readable by the PokEngine parser.
+
+\section{The UI}
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{CSC_UI}
+\end{figure}
+The UI is comprised of \textbf{two elements}: an \textbf{object field} for the .unity file to convert to a ConvertibleScene asset and a \textbf{button to create the asset}.
+Upon successful creation of a ConvertibleScene, the window is automatically closed.
+\newpage
+
+\section{Accessing the Tool}
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{menuAccess}
+\end{figure}The tool is accessed by navigating to \textbf{MainMenu/Tools/Convertible Scene Creator}.
+
+\section{Selecting a Scene}
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{SceneSelection}
+\end{figure}
+\textbf{A .unity scene can be selected} by either \textbf{dropping the .unity file} from the Project explorer \textbf{into the UI's object field} or by \textbf{clicking the small circle in the object field}.
+Doing so brings up a scene selection menu.\\\\
+\textbf{WARNING}: In order for the .unity \textbf{scene} to be converted, it \textbf{needs to be loaded in the editor!}
+
+\section{Output File}
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{generatedFile}
+\end{figure}
+Upon clicking the \textbf{"Create" button}, the \textbf{UI is closed} and the generated .asset can be found under\textbf{ Assets/Data/ConvertibleScene}.
+From there, you may use UPDC to convert the resulting file into a .pokconvertiblescene readable by the PokEngine parser.
+
 \end{document}
