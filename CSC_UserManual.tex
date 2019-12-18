@@ -58,7 +58,12 @@ Finally, \textbf{assign your MyComponent to the ConvertibleGameObject by adding 
 \begin{center}
 \includegraphics[scale=0.55]{componentsContents1}
 \end{center}
+\newpage
+\item You will also \textbf{need to add a string to UPDC's "Empty Fields" tab that defines what an empty MyComponent looks like in JSON format}. This will make sure that the output file will not contain any empty instances of your new component.
+\begin{center}
+\includegraphics[scale=1.0]{emptyDefinition}
+\end{center}
 \end{itemize}
-You should now be able to see the values of your new component in any new .asset file's inspector.
+You should now be able to see the values of your new component in any new .asset file's inspector and upon exporting it, the resulting JSON file should not have any uninitialized instances of your component.
 
 \end{document}
