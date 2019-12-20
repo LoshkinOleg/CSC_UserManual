@@ -27,7 +27,8 @@ These .asset files can then be \textbf{used by the Unity to PokEngine Data Conve
 \begin{center}
 \includegraphics[scale=1.0]{editorUi}
 \end{center}
-The tool has only one button that when pressed will \textbf{launch the generation} of a .asset file \textbf{for the current scene}. \textbf{The generation may take some time}. Upon completion, the editor will close automatically.
+The tool has only one button that when pressed will \textbf{launch the generation} of a .asset file \textbf{for the current scene}. \textbf{The generation may take some time}.\\\\
+Upon completion, the editor will close automatically and \textbf{.obj files for any meshes created using ProBuilder will be generated under \texttt{"Assets/OBJ/CSC\_Generated"}}.
 
 \section{Output File Location}
 \begin{center}
@@ -43,7 +44,7 @@ The tool has only one button that when pressed will \textbf{launch the generatio
 \includegraphics[scale=0.5]{newComponentLocation}
 \end{center}
 \item \textbf{Inside, you must define the struct that will be serialized}. \textbf{It must be marked as "[System.Serializable]" and must inherit from ConvertibleComponent}.\\
-\textbf{Inside, you must also define a creator} for your ConvertibleComponent. \textbf{It must implement a "CreateConvertibleComponents()" method}. See the image below.
+\textbf{Inside, you must also define a factory} for your ConvertibleComponent. \textbf{It must implement a "CreateConvertibleComponents()" method}. See the image below.
 \begin{center}
 \includegraphics[scale=0.75]{newComponentDeclaration}
 \end{center}
@@ -51,14 +52,10 @@ See implementations of existing ConvertibleComponents for more examples of imple
 \newpage
 \item Next, \textbf{edit the "Components.cs" file} located under "Assets/Editor/CSC":
 \begin{center}
-\includegraphics[scale=0.65]{componentsContents0}
+\includegraphics[scale=0.5]{components}
 \end{center}
 Here, you will \textbf{add your new ConvertibleComponent to the declaration of a ConvertibleGameObject}. You will then \textbf{add a line to ConvertibleSceneCreator's CreateConvertibleComponents() method to add the components to ConvertibleSceneCreator's components list.}\\\\
-Finally, \textbf{assign your MyComponent to the ConvertibleGameObject by adding a few lines to ConvertibleSceneCreator's GenerateConvertibleGameObject() method} like demonstrated below:
-\begin{center}
-\includegraphics[scale=0.55]{componentsContents1}
-\end{center}
-\newpage
+Finally, \textbf{assign your MyComponent to the ConvertibleGameObject by adding a few lines to ConvertibleSceneCreator's GenerateConvertibleGameObject() method}.
 \item You will also \textbf{need to add a string to UPDC's "Empty Fields" tab that defines what an empty MyComponent looks like in JSON format}. This will make sure that the output file will not contain any empty instances of your new component.
 \begin{center}
 \includegraphics[scale=1.0]{emptyDefinition}

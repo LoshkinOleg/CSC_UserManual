@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.18)  18 DEC 2019 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.18)  19 DEC 2019 17:22
 entering extended mode
 **./CSC_UserManual.tex
 (CSC_UserManual.tex
@@ -272,89 +272,83 @@ File: ./images/editorUi.png Graphic file (type png)
 <use ./images/editorUi.png>
 Package pdftex.def Info: ./images/editorUi.png  used on input line 28.
 (pdftex.def)             Requested size: 299.61864pt x 51.94392pt.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 31.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
 <./images/outputFile.png, id=4, 487.06969pt x 127.22531pt>
 File: ./images/outputFile.png Graphic file (type png)
 <use ./images/outputFile.png>
-Package pdftex.def Info: ./images/outputFile.png  used on input line 34.
+Package pdftex.def Info: ./images/outputFile.png  used on input line 35.
 (pdftex.def)             Requested size: 365.30136pt x 95.41873pt.
- [1
+[1
 
 {C:/Users/admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/ma
 inMenu.png> <./images/editorUi.png> <./images/outputFile.png>]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 4
-1.
+2.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
-<./images/newComponentLocation.png, id=17, 908.64468pt x 157.33781pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+<./images/newComponentLocation.png, id=18, 908.64468pt x 157.33781pt>
 File: ./images/newComponentLocation.png Graphic file (type png)
 <use ./images/newComponentLocation.png>
 Package pdftex.def Info: ./images/newComponentLocation.png  used on input line 
-43.
+44.
 (pdftex.def)             Requested size: 454.32123pt x 78.6687pt.
-<./images/newComponentDeclaration.png, id=18, 670.00313pt x 517.935pt>
+<./images/newComponentDeclaration.png, id=19, 670.00313pt x 517.935pt>
 File: ./images/newComponentDeclaration.png Graphic file (type png)
 <use ./images/newComponentDeclaration.png>
 Package pdftex.def Info: ./images/newComponentDeclaration.png  used on input li
-ne 48.
+ne 49.
 (pdftex.def)             Requested size: 502.50111pt x 388.45029pt.
 
-Overfull \hbox (2.26326pt too wide) in paragraph at lines 48--49
+Overfull \hbox (2.26326pt too wide) in paragraph at lines 49--50
  [] 
  []
 
 [2 <./images/newComponentLocation.png> <./images/newComponentDeclaration.png>]
-<./images/componentsContents0.png, id=25, 745.28438pt x 374.90062pt>
-File: ./images/componentsContents0.png Graphic file (type png)
-<use ./images/componentsContents0.png>
-Package pdftex.def Info: ./images/componentsContents0.png  used on input line 5
-4.
-(pdftex.def)             Requested size: 484.42911pt x 243.68251pt.
+<./images/components.png, id=26, 909.3975pt x 499.11469pt>
+File: ./images/components.png Graphic file (type png)
+<use ./images/components.png>
+Package pdftex.def Info: ./images/components.png  used on input line 55.
+(pdftex.def)             Requested size: 454.69765pt x 249.55672pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-<./images/componentsContents1.png, id=26, 995.97093pt x 402.00188pt>
-File: ./images/componentsContents1.png Graphic file (type png)
-<use ./images/componentsContents1.png>
-Package pdftex.def Info: ./images/componentsContents1.png  used on input line 5
-9.
-(pdftex.def)             Requested size: 547.7857pt x 221.1017pt.
-
-Overfull \hbox (47.54785pt too wide) in paragraph at lines 59--60
- [] 
- []
-
-[3 <./images/componentsContents0.png> <./images/componentsContents1.png>]
-<./images/emptyDefinition.png, id=32, 304.88907pt x 192.72pt>
+<./images/emptyDefinition.png, id=27, 304.88907pt x 192.72pt>
 File: ./images/emptyDefinition.png Graphic file (type png)
 <use ./images/emptyDefinition.png>
-Package pdftex.def Info: ./images/emptyDefinition.png  used on input line 64.
+Package pdftex.def Info: ./images/emptyDefinition.png  used on input line 61.
 (pdftex.def)             Requested size: 304.88832pt x 192.71951pt.
-
-[4 <./images/emptyDefinition.png>] (CSC_UserManual.aux) ) 
+[3 <./images/components.png> <./images/emptyDefinition.png>]
+(CSC_UserManual.aux) ) 
 Here is how much of TeX's memory you used:
- 3187 strings out of 492452
- 42858 string characters out of 3129807
- 111888 words of memory out of 3000000
- 7502 multiletter control sequences out of 15000+200000
- 9804 words of font info for 37 fonts, out of 3000000 for 9000
+ 3184 strings out of 492452
+ 42626 string characters out of 3129807
+ 112888 words of memory out of 3000000
+ 7498 multiletter control sequences out of 15000+200000
+ 9972 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,6n,34p,315b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb>
-Output written on CSC_UserManual.pdf (4 pages, 233465 bytes).
+ 46i,6n,34p,315b,243s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on CSC_UserManual.pdf (3 pages, 210431 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
